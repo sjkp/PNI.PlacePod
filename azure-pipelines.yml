@@ -19,3 +19,13 @@ steps:
   inputs:
     command: 'build'
     arguments: '--configuration $(buildConfiguration)'
+- task: CopyFiles@2
+  inputs:
+    Contents: '**/*.nupkg'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
