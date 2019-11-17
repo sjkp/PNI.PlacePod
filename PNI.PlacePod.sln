@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNI.PlacePod", "PNI.PlacePod\PNI.PlacePod.csproj", "{9B5C2F0D-4C1B-4869-9861-74F6A55D93E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNI.PlacePod.Test", "PNI.PlacePod.Test\PNI.PlacePod.Test.csproj", "{0A8B7472-EF7B-4BD3-9B95-AFA34830E31B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9B5C2F0D-4C1B-4869-9861-74F6A55D93E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5C2F0D-4C1B-4869-9861-74F6A55D93E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5C2F0D-4C1B-4869-9861-74F6A55D93E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8B7472-EF7B-4BD3-9B95-AFA34830E31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8B7472-EF7B-4BD3-9B95-AFA34830E31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8B7472-EF7B-4BD3-9B95-AFA34830E31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8B7472-EF7B-4BD3-9B95-AFA34830E31B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
