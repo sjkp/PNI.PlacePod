@@ -124,5 +124,14 @@ namespace PNI.PlacePod.Test
             Assert.Equal(3.64f, res.ElementAt(0).Battery);
             Assert.Equal(22f, res.ElementAt(1).Temperature);
         }
+
+        [Fact]
+
+        public void EmptyDecode()
+        {
+            var res = Decoder.Decode("");
+
+            Assert.Empty(res);
+        }
     }
 }
