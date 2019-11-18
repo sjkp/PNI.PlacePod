@@ -133,5 +133,13 @@ namespace PNI.PlacePod.Test
 
             Assert.Empty(res);
         }
+
+        [Fact]
+        public void UnknownDecode()
+        {
+            var res = Decoder.Decode("05000506000e050005060010376601");
+
+            Assert.Empty(res.ToList());
+        }
     }
 }

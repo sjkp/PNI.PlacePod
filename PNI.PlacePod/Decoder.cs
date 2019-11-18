@@ -91,10 +91,12 @@ namespace PNI.PlacePod
                         decoded.RebootSucceed = (bytes[2] & 0x01) == 0x01;
                         i += 3;
                         break;
+                    default:
+                        i = bytes.Length;
+                        continue;
                 }
                 yield return decoded;
-            }
-            
+            }            
         }
 
         private static void ParkingStatus(byte @byte, Data decoded)
